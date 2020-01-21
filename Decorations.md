@@ -65,7 +65,6 @@ largeStalagmites: []
 # Pillars
 ```
 giantPillars: [
-  /*
   {
     state: null
     stairBlock: null
@@ -75,7 +74,6 @@ giantPillars: [
     minLength: 4
     maxLength: 12
   }
-  */
 ]
 ```
 - giantPillars: `[{object} array]`
