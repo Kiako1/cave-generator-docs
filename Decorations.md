@@ -10,15 +10,10 @@ largeStalactites: [
     minHeight: 11
     maxHeight: 55
     matchers: []
-     # Optional noise block. Will perform better without.
     noise2D: {
       scale: 0.7125
       frequency: 0.025
-       # Not used at all in this context. Can be omitted.
-       # -1 is effectively the default.
       minVal: -1
-       # Not used at all in this context. Can be omitted.
-       # -1 is effectively the default.
       maxVal: 1
     }
   }
@@ -71,14 +66,9 @@ largeStalagmites: []
 ```
 giantPillars: [
   /*
-  { Default values; these don't spawn by default.
-     # This block makes up the body of the pillar.
+  {
     state: null
-     # This may not be null if it does exist, but it can be
-     # left out. If the field is not present, no stairs will
-     # spawn.
     stairBlock: null
-     # Number of spawn tries per chunk.
     frequency: 15
     minHeight: 10
     maxHeight: 50
@@ -124,9 +114,7 @@ giantPillars: [
 Structures are ideal for small decorations. Larger decorations (Larger than 16x16) may cause cascading generation lag and should be handed by another mod, such as Recurrent Complex or OTG. Structures will be centered around X and Z, but not Y. Most of this information can be left out.
 ```
 structures: [
-  { Default values; no structures spawn by default.
-     # name refers to a resource location or file name.
-     # It may not be null.
+  {
     name: null
     integrity: 1.0
     offset: [0, 0, 0]
