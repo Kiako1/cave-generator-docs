@@ -72,7 +72,7 @@ wallDecorators: [
 
 
 - directions: `[String array]`
-  - Direction of wall to replace blocks on. Accepted values are `"north"`, `"south"`, `"east"`, and "`west`". *Optional, defaults to all values.*
+  - Direction of wall to replace blocks on. Accepted values are `"north"`, `"south"`, `"east"`, "`west`", "`up`" and "`down`". *Optional, defaults to all values.*
 
 
 - matchers: `[String array]`
